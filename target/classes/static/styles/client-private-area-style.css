@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+html {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  /*background-color: #F4EEA8; yellow-gray*/
+}
+
+header {
+  font-size: 20px;
+  padding: 0px 60px;
+  color: #721D0C;
+}
+
+
+main{
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+
+
+form {
+  /* Р Р°СЃРїРѕР»РѕР¶РёРј С„РѕСЂРјСѓ РїРѕ С†РµРЅС‚СЂСѓ СЃС‚СЂР°РЅРёС†С‹ */
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  width: 600px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li {
+	float: left;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+input, 
+textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  margin-left: .5em;
+}
